@@ -82,7 +82,7 @@ bool InitializeProxyServer(const char* GatewayIP, UINT16 GatewayPort, UINT16 Lis
 	{
 		return false;
 	}
-	std::cout << "Proxy started on 127.0.0.1:5585\n";
+	std::cout << "Proxy started on 127.0.0.1:8080\n";
 		//OutputLogQueue.push("Bound");
 	listen(ListenerSocket, 1);
 	while (true)
